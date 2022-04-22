@@ -96,12 +96,13 @@ body{
 .about-content {
   padding-top: 20px;
   color: #555;
+  line-height: 2;
 }
 
 .barista-image {
     float: right;
     margin-top: auto;
-    line-height: 2;
+   
   }
 
 @media (max-width: 1024px) {
