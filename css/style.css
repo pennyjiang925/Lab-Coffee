@@ -101,7 +101,7 @@ body{
 .barista-image {
     float: right;
     margin-top: auto;
-    lind-height: 2;
+    line-height: 2;
   }
 
 @media (max-width: 1024px) {
