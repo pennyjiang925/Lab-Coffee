@@ -1,0 +1,283 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #e4d1b9;
+}
+
+/* navbar */
+#nav-bar {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+
+.navbar-brand img {
+  padding-left: 20px;
+  max-width: 8rem;
+  height: auto;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  text-align: left;
+  transition: 0.5s;
+  float: right;
+}
+
+#nav-bar ul li a:hover {
+  color: #e45826;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.nav-link {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Slider */
+.carousel-caption {
+  top: 50%;
+  transform: transformY(-50%);
+  bottom: initial;
+}
+
+.carousel-caption h2 {
+  padding-right: 40%;
+}
+
+.carousel-item img {
+  max-height: 100%;
+}
+
+.slogan {
+  color: #e45826;
+}
+
+/* About */
+#About {
+  margin-top: 100px;
+  color: #e45826;
+}
+
+#About a {
+  color: #555;
+  text-decoration: none;
+}
+#About a:hover {
+  color: #e45826;
+}
+
+.about-content {
+  padding-top: 20px;
+  line-height: 2;
+  color: #555;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.barista-image {
+  width: 100%;
+  max-width: 27rem;
+  margin: auto 40px;
+}
+
+/* SHOP */
+
+#shop {
+  padding: 80px;
+  margin-top: 40px;
+}
+
+#shop h2 {
+  text-align: center;
+}
+
+.shop-column {
+  padding: 3% 3%;
+}
+
+.btn row {
+  display: flex;
+}
+#btn {
+  border: 1px solid;
+  margin-top: 25px;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+#btn:hover {
+  background: #e45826;
+}
+
+#btn a:hover {
+  color: white;
+}
+
+/* Partner */
+#partner {
+  margin-top: 40px;
+}
+
+.cafe {
+  max-width: 100%;
+  width: 1000px;
+}
+
+.text-content {
+  color: #555;
+  text-align: justify;
+  line-height: 2;
+  margin: 25px;
+  font-size: 18px;
+}
+
+.text-content h2 {
+  color: #e45826;
+}
+.text-content p {
+  margin-top: 35px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 8px 20px;
+  background-color: #e45826;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  transform: scale(1.01) !important;
+}
+
+/* subscription */
+
+.container1 {
+  text-align: center;
+  color: black;
+}
+
+.icon i {
+  margin-top: 120px;
+  font-size: 4.2rem;
+}
+
+.icon h5 {
+  padding: 20px;
+  font-size: 1rem;
+}
+
+.icon p {
+  color: #555;
+  font-size: 0.6;
+}
+
+.input-group {
+  margin-top: 3%;
+  justify-content: center;
+}
+
+#input-form {
+  max-width: 25%;
+}
+
+#signup-btn {
+  background-color: black;
+  color: white;
+  transition: 0.6s;
+}
+
+a #signup-btn:hover {
+  background-color: #e45826;
+  transform: scale(1);
+}
+
+/* bottom */
+#bottom {
+  color: black;
+  align-items: left;
+  margin-top: 100px;
+  margin-left: 5%;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.bottom-container p {
+  color: #555;
+  margin-top: 20px;
+  line-height: 1;
+}
+
+#bottom ul li {
+  list-style: none;
+  font-size: 2rem;
+  display: inline-flex;
+  padding-right: 15px;
+}
+
+.copyright-row {
+  font-size: 0.8rem;
+  margin-top: 100px;
+  padding-bottom: 5%;
+}
+
+.col-lg-4 i:hover {
+  color: #e45826;
+}
+
+@media (max-width: 992px) {
+  #bottom .col-lg-4 {
+    margin-top: 5%;
+  }
+
+  bottom .copyright-row {
+    padding-top: 0;
+    margin-top: 10px;
+    align-items: center;
+  }
+
+  img {
+    height: auto;
+    max-height: 500px;
+  }
+
+  #About {
+    text-align: center;
+  }
+
+  .about-content {
+    margin: 0 30px;
+  }
+  .cafe {
+    margin-bottom: 50px;
+  }
+
+  .offer {
+    margin: 0 30px;
+  }
+  .text-content {
+    margin: 0 40px;
+  }
+
+  .input-group {
+    margin-top: 5%;
+  }
+  #input-form {
+    max-width: 30%;
+  }
+}
